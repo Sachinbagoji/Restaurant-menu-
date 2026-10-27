@@ -22,6 +22,7 @@ h1,h2,h3{font-family:var(--d);font-weight:400;text-transform:uppercase;line-heig
 
 /* announcement + header */
 .ann{background:var(--black);color:#fff;text-align:center;font-size:12px;font-weight:600;letter-spacing:.04em;padding:9px 12px;text-transform:uppercase}
+.special{background:var(--red);color:#fff;text-align:center;padding:10px;font-weight:700}
 header{position:sticky;top:0;z-index:30;background:#fff;border-bottom:1px solid var(--line)}
 .bar{display:flex;align-items:center;gap:30px;height:68px}
 .logo{font-family:var(--d);font-size:30px;text-transform:uppercase;text-decoration:none;letter-spacing:.01em;font-style:italic;white-space:nowrap}
@@ -189,6 +190,7 @@ aside.on{transform:none}
 <body>
 
 <div class="ann">Free delivery on orders above ₹499 &nbsp;|&nbsp; Open daily 11 am to 11 pm &nbsp;|&nbsp; Call 70953 68952</div>
+<div class="special">Today's special: Mutton Dum Biryani, ₹349</div>
 
 <header>
   <div class="wrap bar">
